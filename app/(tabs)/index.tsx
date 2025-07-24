@@ -12,7 +12,7 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
+          source={require('@/assets/images/DMBI Project.png')}
           style={styles.reactLogo}
         />
       }>
@@ -21,9 +21,9 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Step 1: Look at your profile </ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
+          The 1st step is to ook at your profile nad update your own BIO as per changes that youu want to see.
           Press{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
@@ -36,19 +36,16 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">Step 2: My Connections</ThemedText>
         <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
+          {`Tap the My Connections tab to know who all have matched with you on this applicarion.`}
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Step 3: If your vibe matches then this the ball is in your court </ThemedText>
         <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          {`When you're ready, you can start a conversation with someone by tapping on their profile and sending them a message. If they respond positively, you can arrange a date or meet up in person.`}
+          
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
@@ -66,10 +63,10 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
+    height: 250,
+    width: 250,
     bottom: 0,
     left: 0,
-    position: 'absolute',
+    position: 'relative',
   },
 });
